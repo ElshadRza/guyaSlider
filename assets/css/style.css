@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .slider {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container .slider img {
+  height: 200px;
+  position: relative;
+}
+.container .right {
+  border: 0;
+  background-color: white;
+}
+.container .right img {
+  width: 20px;
+  height: 20px;
+}
+.container .buttons {
+  border: 0;
+  background-color: white;
+}
+.container .buttons img {
+  width: 20px;
+  height: 20px;
+}
+
+.visible {
+  display: block;
+}
